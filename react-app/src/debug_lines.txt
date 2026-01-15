@@ -1,0 +1,20 @@
+﻿/* --- DASHBOARD SIDEBAR & LAYOUT --- */
+.elite-hud {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  background: #000;
+  height: 100vh;
+}
+
+.admin-sidebar {
+  background: rgba(5, 5, 10, 0.95);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+  backdrop-filter: blur(40px);
+}
+
+.loader-overlay-fixed {
+  position: fixed;
+  inset: 0;
